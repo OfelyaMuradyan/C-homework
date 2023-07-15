@@ -7,10 +7,7 @@ int main()
 	printf("Enter a number: ");
 	scanf("%d", &num);
 
-	int a = num & 16;
-	if (a != 16)
-	{
-		num += 16;
-	}	
-	printf("%d\n", num);
+        int a = 1 << 4;
+
+	printf("%d\n", num | a);
 }
