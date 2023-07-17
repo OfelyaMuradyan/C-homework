@@ -7,7 +7,7 @@ int main()
 	printf("Enter a number: ");
 	scanf("%d", &num);
 
-        int a = 1 << 4;
+        int a = 1 << 5;
 
 	printf("%d\n", num | a);
 }
