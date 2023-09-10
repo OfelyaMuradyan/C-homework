@@ -2,7 +2,7 @@
 
 int main()
 {
-	char arr1[] = "Hello,";
+	char arr1[17] = "Hello,";
 	char arr2[] = "world";
 	int i = 0;
 	size_t temp1 = sizeof(arr1);
@@ -19,4 +19,5 @@ int main()
 	{
 		printf("%c", arr1[i]);
 	}
+	printf("\n");
 }
